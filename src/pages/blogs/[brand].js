@@ -1,10 +1,10 @@
 import React from "react";
-import { mockData } from "@/_mock/mockData";
+import { carsData } from "@/_mock/carsData";
 import Image from "next/image";
 import Header from "@/components/Header";
 
 export const getStaticProps = async ({ params }) => {
-  const blogs = mockData?.filter((item) => item.title == params.title);
+  const blogs = carsData?.filter((item) => item.brand == params.brand);
   
   return {
     props: {
@@ -13,8 +13,8 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 export const getStaticPaths = async () => {
-  const paths = mockData.map((item) => ({
-    params: { title: item.title },
+  const paths = carsData.map((item) => ({
+    params: { brand: item.brand },
   }));
   return { paths, fallback: false };
 };
@@ -27,10 +27,10 @@ const blogDesc = ({ blog }) => {
         <Header />
         <div className="px-5 text-center py-20">
           <p className=" font-semibold text-[#F9AF82] text-2xl">
-            {blog.title} | 2 Mins Ago
+            {blog.brand} | 2 Mins Ago
           </p>
           <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold max-w-2xl m-auto">
-            {blog.heading}
+            {blog.model}
           </h1>
           <p className="text-center mt-7">by Zack Jeneil</p>
         </div>

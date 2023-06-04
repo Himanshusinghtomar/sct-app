@@ -7,14 +7,14 @@ const Help = () => {
       <div className="flex items-center gap-4  mt-24 mb-24  justify-evenly flex-wrap">
         <div className="px-5">
           <div className="px-5">
-            <p className=" font-semibold text-[#F9AF82] text-2xl">
+            <p className=" font-semibold text-light-orange text-2xl">
               Here to help you
             </p>
-            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
-              Get started today with 14 <br /> day free trial
+            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold text-white leading-5">
+            Purchase and Sales<br /> Used Four Wheeler 
             </h1>
           </div>
-          <div className="mt-10 px-5">
+          <div className="mt-10 px-5 text-white">
             <div className="flex gap-4 border-b-2 py-4">
               <div>
                 <svg
@@ -31,8 +31,7 @@ const Help = () => {
                 </svg>
               </div>
               <div className="max-w-sm">
-                24/7/365 Live Chat Service for your website (Includes Two-Way
-                Texting, Google Business Messeges and Facebook Messenger)
+                Offer a wide range of high-quality used cars at competitive prices
               </div>
             </div>
             <div className="flex gap-4 border-b-2 py-4">
@@ -116,7 +115,7 @@ const Help = () => {
         <div className="border-l-2 border-b-2 rounded-3xl p-4 border-light-orange m-2">
           <Image
             src={
-              "/assets/ai-chatbot-smart-digital-customer-service-application-concept 1.png"
+              "/assets/del02.jpeg"
             }
             alt="Group of people"
             width={650}

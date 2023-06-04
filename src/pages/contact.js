@@ -13,17 +13,17 @@ export default function Contact() {
 
   return (
     <>
-      <div className="bg-[#FEEFE6]">
+      <div className="bg-gradient-to-r from-[#171718]  to-[#76777a]">
         <div className="max-w-app m-auto">
-          <Header bgColor="#FEEFE6" />
+          <Header bgColor="gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
           <div className="px-5 text-center py-20">
-            <p className=" font-semibold text-[#F9AF82] text-2xl">
+            <p className=" font-semibold text-light-orange text-2xl">
               Contact & Help
             </p>
-            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
-              Outsourcing? Need Help?
+            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold text-white">
+             Need Help?
             </h1>
-            <p className="lg:max-w-xl m-auto mt-3">
+            <p className="lg:max-w-xl m-auto mt-3 text-light-orange">
               We love to hear from you. Let us help you.
             </p>
           </div>
@@ -144,14 +144,14 @@ export default function Contact() {
           <div className="lg:mt-0 md:mt-5 sm:mt-5 mt-5">
             <div className="mb-5 lg:mt-0 sm:mt-5 text-start">
               <h3 className="font-bold mb-5">Call Us</h3>
-              <p>+971 4 399 2295</p>
-              <p>+971 4 399 2295</p>
+              <p>+91 9709884713</p>
+              <p>+91 8092046369</p>
             </div>
             <div className="mb-5 lg:mt-0 sm:mt-5">
               <h3 className="font-bold mb-5">Address</h3>
-              <p>Al Tawhidi Building - 1 ,</p>
-              <p>Mankhool 5th floor - Bur Dubai</p>
-              <p>Dubai - United Arab Emirates</p>
+              <p>Maranga , Purnia(854303)  ,</p>
+              <p>Near Mahindra Showroom</p>
+              <p>and Near Maranga Dhaba</p>
             </div>
           </div>
         </div>

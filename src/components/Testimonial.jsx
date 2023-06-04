@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination , Autoplay } from "swiper";
 import Image from "next/image";
 import { testimonials } from "@/_mock/testimonial";
 
@@ -17,11 +17,11 @@ const Testimonial = () => {
   return (
     <div className="py-5">
       <div className="px-5">
-        <p className=" font-semibold text-[#F9AF82] text-2xl">Testimonial</p>
+        <p className=" font-semibold text-[#20BFB6] text-2xl">Testimonial</p>
         <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
           What our clients saying
           <br />
-          about call center
+          about Us ?
         </h1>
       </div>
       <div>
@@ -32,15 +32,25 @@ const Testimonial = () => {
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination]}
+          autoplay ={{
+            delay: 2000,
+            disableOnInteraction: false
+        }}
+          modules={[Autoplay,Pagination]}
           className="mySwiper"
         >
           {testimonials?.map((test) => (
             <SwiperSlide key={uuidv()}>
               <div className="max-w-md py-4 h-80 px-8 bg-white shadow-lg rounded-lg my-20 relative">
                 <div className="flex justify-center md:justify-end -mt-16">
-                  <div className="w-20 h-20 pt-2  bg-[#20BFB6] rounded-full text-9xl flex justify-center object-cover">
-                    &rdquo;
+                  <div className="w-20 h-20  bg-black rounded-full text-9xl flex justify-center object-cover">
+                    <Image
+                        src={"/assets/navlogo.png"}
+                        alt="img"
+                        width={70}
+                        height={30}
+                        className="rounded-full"
+                      />
                   </div>
                 </div>
                 <div>

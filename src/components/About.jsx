@@ -3,21 +3,21 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-24 flex flex-col justify-center " id="services">
-      <p className="text-center font-semibold text-[#F9AF82] text-2xl">
+    <div className=" flex flex-col justify-center  " id="services">
+      <p className="text-center text-[#20BFB6] text-3xl font-extrabold">
         About Us
       </p>
       <div className="grid lg:grid-col-3">
         <div className="lg:col-span-1">
           <Image
             alt="lady"
-            src={"/assets/ladyThumb.png"}
+            src={"/assets/sct.png"}
             width={644}
             height={722}
           />
         </div>
         <div className="lg:col-start-2 self-center px-4 py-2">
-          <h1 className="lg:text-5xl text-2xl font-bold max-w-md">
+          <h1 className="lg:text-5xl text-2xl font-bold max-w-md text-[#20BFB6]">
             Leading support as a service provider.
           </h1>
           <p className="leading-8 max-w-2xl mt-4">

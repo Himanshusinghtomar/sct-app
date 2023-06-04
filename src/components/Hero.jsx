@@ -2,6 +2,7 @@ import React from "react";
 import { PhoneIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
+
 const Hero = () => {
   return (
     <div className=" lg:p-4 p-2 flex justify-between items-center md:flex-row flex-col-reverse box-border mt-10 ">

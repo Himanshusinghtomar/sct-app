@@ -1,69 +1,57 @@
 export const faqData = [
   {
-    question: "Can I choose the specific 8-hour timeframe for the live agents?",
+    question: "What types of used cars do you offer?",
     answer:
-      "Yes, we provide flexibility in scheduling the 8-hour timeframe for our live agents. You can choose the most convenient hours that align with your business operations.",
+      "We offer a wide range of used cars, including sedans, SUVs, trucks, and hatchbacks. Our inventory includes vehicles from various manufacturers to cater to different preferences and budgets.",
   },
   {
-    question: "Do you offer extended support beyond the 8-hour timeframe?",
+    question: "Are your used cars inspected before being sold?",
     answer:
-      "Yes, we can discuss options for extended support based on your requirements. We aim to provide solutions that meet your specific needs and ensure uninterrupted customer service.",
+      "Yes, all our used cars go through a comprehensive inspection process before being made available for sale. We ensure that the vehicles are in good condition and address any necessary repairs or maintenance.",
   },
   {
-    question: "How many live agents will be assigned to handle our tasks?",
+    question: "Do you provide vehicle history reports for your used cars?",
     answer:
-      "The number of live agents assigned will depend on the volume of tasks and workload. We carefully assess your requirements to ensure optimal coverage and efficient handling of customer inquiries.",
+      "Absolutely! We offer vehicle history reports for our used cars, providing you with information about the vehicle's past, including accidents, service records, ownership history, and more.",
   },
   {
-    question: "What sets ANT Technologies apart from other software companies?",
+    question: "Can I schedule a test drive for a used car?",
     answer:
-      "Because of our passion for encouraging company success, our in-depth knowledge of the most recent technology, and our dedication to providing unique and customized solutions, ANT technology stands out.",
+      "Yes, we encourage customers to schedule a test drive for any used car they are interested in. It allows you to experience the vehicle firsthand and make an informed decision before purchasing.",
   },
   {
-    question: "Are your software solutions customizable?",
+    question: "Do you offer financing options for used car purchases?",
     answer:
-      "Yes, our software solutions are customizable to meet the unique needs of your business. We work closely with you to understand your requirements and design solutions that align with your specific goals.",
+      "Yes, we provide financing options for used car purchases. Our team can assist you in finding suitable financing solutions tailored to your financial situation and help you navigate the loan application process.",
   },
   {
-    question: "Do you offer ongoing support and maintenance for your products?",
+    question: "What is your return policy for used car purchases?",
     answer:
-      "Absolutely! We provide comprehensive support and maintenance services to ensure that our products continue to perform optimally and meet your business needs.",
+      "We have a return policy in place for used car purchases. Please reach out to our sales team to discuss the details and conditions regarding returns within a specified timeframe.",
   },
   {
-    question: "How do you ensure data privacy and security?",
+    question: "Can I trade-in my current vehicle for a used car?",
     answer:
-      "At ANT Technologies, we prioritize data privacy and security. We implement stringent measures to safeguard your data, adhere to applicable regulations like GDPR, and follow industry best practices for data protection.",
+      "Yes, we accept trade-ins for used car purchases. Our team will assess the value of your current vehicle and provide you with a fair trade-in offer that can be applied towards the purchase of a used car from our dealership.",
   },
   {
-    question:
-      "Can you integrate your software solutions with our existing systems?",
+    question: "Do you offer extended warranties for used cars?",
     answer:
-      "Yes, we have experience integrating our software solutions with various systems, including CRMs, ERPs, and other third-party applications. We'll work closely with your team to ensure seamless integration.",
+      "Yes, we offer extended warranty options for our used cars. These warranties provide additional coverage beyond the manufacturer's warranty, giving you peace of mind and protection against unexpected repairs.",
   },
   {
-    question: "Do you provide training for using your software products?",
+    question: "Can you assist with vehicle registration and paperwork?",
     answer:
-      "Absolutely! We offer comprehensive training sessions to ensure that your team can effectively utilize our software products. Our training programs are tailored to your specific requirements.",
+      "Absolutely! Our team can assist you with vehicle registration and all the necessary paperwork involved in the purchase process. We strive to make the process as smooth and convenient as possible for our customers.",
   },
   {
-    question: "How long does it take to implement your software solutions?",
+    question: "What sets your used car dealership apart from others?",
     answer:
-      "The implementation timeline can vary depending on the complexity of the project. We'll work closely with you to establish a realistic timeline and ensure a smooth and efficient implementation process.",
+      "At our dealership, we prioritize customer satisfaction and transparency. We offer high-quality used cars, thorough inspections, comprehensive vehicle history reports, flexible financing options, and excellent customer service to ensure a positive buying experience.",
   },
   {
-    question: "What industries do you specialize in?",
+    question: "How can I contact your dealership for more information?",
     answer:
-      "We have experience working with a wide range of industries, including finance, healthcare, retail, manufacturing, and more. Our expertise allows us to cater to diverse business sectors.",
-  },
-  {
-    question:
-      "Can you assist with migrating our existing data to your software solutions?",
-    answer:
-      "Yes, we provide data migration services to help you transfer your existing data securely and efficiently into our software solutions. Our team will ensure a smooth transition with minimal disruption.",
-  },
-  {
-    question: "How can I get started with ANT Technologies?",
-    answer:
-      "Getting started is easy! Simply reach out to our team through our contact page, and we'll be happy to discuss your requirements, provide more information, and guide you through the next steps of our partnership.",
+      "You can contact our dealership by visiting our website and filling out the contact form. Alternatively, you can call our sales team directly at [phone number] or visit our showroom during business hours. We'll be happy to answer any further questions you may have.",
   },
 ];

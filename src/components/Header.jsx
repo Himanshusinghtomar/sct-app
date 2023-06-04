@@ -8,7 +8,7 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 const navigation = [
   {
     title: "Services",
-    path: "#services",
+    path: "/services",
     current: false,
   },
   {

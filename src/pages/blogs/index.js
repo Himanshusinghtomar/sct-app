@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import { mockData, category } from "@/_mock/mockData";
+import { carsData, brands } from "@/_mock/carsData";
 import { v4 as uuidv } from "uuid";
 import Card from "@/pages/blogs/Card";
 import Image from "next/image";
 import Header from "@/components/Header";
 import AppLayout from "@/layout/AppLayout";
 const blog = () => {
-  const [filteredBlog, setFilteredBlog] = useState(mockData);
+  const [filteredBlog, setFilteredBlog] = useState(carsData);
   const handleFilter = (e) => {
     const mock =
       e.target.value !== "Shows All"
-        ? mockData.filter((item) => item.category === e.target.value)
-        : mockData;
+        ? carsData.filter((item) => item.brand === e.target.value)
+        : carsData;
 
     if (mock.length === 0) {
       alert("No reord Found");
@@ -38,7 +39,7 @@ const blog = () => {
       </div>
       <AppLayout>
         <div className=" flex flex-row gap-4 justify-center items-center px-5">
-          {category?.map((item) => (
+          {brands?.map((item) => (
             <div key={uuidv()}>
               <button
                 value={item}
@@ -50,7 +51,9 @@ const blog = () => {
             </div>
           ))}
         </div>
+
         <Card products={filteredBlog} />
+        
         <div className="text-center">
           <button className="inline-block rounded-full bg-neutral-800 mr-2 px-6 pb-2 pt-2.5 text-xs font-medium  leading-normal text-white transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200">
             Load More

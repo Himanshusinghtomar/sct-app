@@ -10,12 +10,12 @@ const Contact = () => {
             <p className=" font-semibold text-[#F9AF82] text-2xl">Contact Us</p>
             <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
               Reach out to us for
-              <br /> your agency
+              <br /> your Used Car
             </h1>
           </div>
           <div className="border-l-2  border-b-2 rounded-3xl p-4 border-light-orange mt-5 mx-2">
             <Image
-              src={"/assets/walling-UP7JSnodG2M-unsplash 1.png"}
+              src={"/assets/sc01.jpeg"}
               alt="Group of people"
               width={200}
               height={100}

@@ -1,28 +1,30 @@
 import Header from "@/components/Header";
 import React, { useState } from "react";
 import { faqData } from "@/_mock/faqData";
+import { carsData, brands } from "@/_mock/carsData";
 import { v4 as uuidv } from "uuid";
 import AppLayout from "@/layout/AppLayout";
+import Image from "next/image";
 
 const Faqs = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <div className="bg-[#FEEFE6]">
+      <div className="bg-gradient-to-r from-[#171718]  to-[#76777a]">
         <div className="max-w-[1600px] m-auto">
-          <Header bgColor="#FEEFE6" />
+          <Header bgColor="" />
           <div className="px-5 text-center py-20">
-            <p className=" font-semibold text-[#F9AF82] text-2xl">
+            <p className=" font-semibold text-light-orange text-2xl">
               Frequently Asked Question
             </p>
-            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
+            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold text-white">
               Still need help?
             </h1>
-            <p className="lg:max-w-xl m-auto mt-3">
+            <p className="lg:max-w-xl m-auto mt-3 text-light-orange">
               Can’t find answer? call us at{" "}
-              <span className="font-bold">+971 4 399 2295</span> or email us{" "}
-              <span className="font-bold">contact@anttechnology.ae</span>
+              <span className="font-bold">+91 9709884713</span> or email us{" "}
+              <span className="font-bold">singhcartrade@gmail.com</span>
             </p>
           </div>
         </div>

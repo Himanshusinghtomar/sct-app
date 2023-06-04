@@ -4,6 +4,18 @@ import React from "react";
 import { v4 as uuidv } from "uuid";
 
 const Card = ({ products }) => {
+
+  const filteredImages = products.filter((images) =>(images.image.carImages.length > 1)).map(img => img.image.carImages);
+  const imageUrls = [];
+  filteredImages.forEach(images => {
+    images.forEach(image => {
+      if (image.url) {
+        imageUrls.push(image.url);
+      }
+    });
+  });
+
+console.log(imageUrls);
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3 px-7 m-10 ">
       {products?.map((product) => (
@@ -11,10 +23,22 @@ const Card = ({ products }) => {
           <div className="flex justify-evenly ">
             <div className="max-w-[300px] rounded-lg  shadow hover:shadow-lg hover:border-2 border-light-orange p-4 ">
               <div className="w-full h-[204px]   grid content-center	justify-center">
-              <Link href={`/blogs/${product.title}`} passHref>
+              <Link href={`/blogs/${product.brand}`} passHref>
+              {/* {product.image.carImages.map((img) => (
+                          <div key={uuidv()}>
+                            <Image
+                            src={img.url}
+                            height={500}
+                            width={500}
+                            alt="img"
+                            />
+                            {}
+                          </div>
+                        ))} */}
                 <Image
-                  src={product.headingImg}
-                  alt={product.title}
+                key={uuidv()}
+                  src={imageUrls[0]}
+                  alt={product.brand}
                   width={300}
                   height={300}
                   className=" rounded-2xl"
@@ -22,9 +46,9 @@ const Card = ({ products }) => {
               </Link>
               </div>
               <div>
-                <p>Business &nbsp; | &nbsp;{product.date}</p>
+                <p>Business &nbsp; | &nbsp;{product.model}</p>
               </div>
-              <Link href={`/blogs/${product.title}`} passHref>
+              <Link href={`/blogs/${product.brand}`} passHref>
                 <span aria-hidden="true" className=" hover:text-light-orange" />
                 {product.title}
               </Link>

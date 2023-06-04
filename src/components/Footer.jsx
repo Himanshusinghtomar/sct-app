@@ -84,12 +84,12 @@ const Footer = () => {
           <div className="flex items-center justify-evenly  relative">
             <div className="lg:p-12 sm:p-6 p-4">
               <h3 className="lg:text-4xl md:text-3xl sm:text-2xl text-sm font-bold">
-                Start your 7-day
-                <br /> free trial today.
+                Come To Our 
+                <br /> Showroom Today.
               </h3>
               <div className="pt-3">
                 <button className="inline-block rounded-full bg-neutral-800 mr-2 lg:px-6 lg:py-2 md:px-6 md:py-2 sm:px-6 sm:py-2 px-3 py-1 lg:text-lg text-xs font-medium  leading-normal text-white transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200">
-                  Get Started
+                  Test Drive
                 </button>
                 <span className="text-sm">4.85/5 From 400+ Reviews</span>
               </div>
@@ -127,7 +127,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <p className="lg:text-xl text-xs">Hire Live Agents</p>
+                <p className="lg:text-xl text-xs">Instant loan Processing</p>
               </div>
               <div className="flex gap-3">
                 <svg
@@ -143,7 +143,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <p className="lg:text-xl text-xs">Hire Voice Agents</p>
+                <p className="lg:text-xl text-xs">Non Accidental Car</p>
               </div>
               <div className="flex gap-3">
                 <svg
@@ -159,7 +159,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <p className="lg:text-xl text-xs">Hire Virtual Assistant</p>
+                <p className="lg:text-xl text-xs">Hand to Hand Delivery on Cash</p>
               </div>
             </div>
           </div>
@@ -168,8 +168,8 @@ const Footer = () => {
       <div className="bg-[#242423]">
         <div className=" text-white max-w-app m-auto">
           <div className="pt-32">
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 place-items-start mb-6">
-              <div className="pt-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 place-items-center mb-6">
+              <div className="pt-4 px-4">
                 <Image
                   src={"/assets/sct.png"}
                   alt="logo"
