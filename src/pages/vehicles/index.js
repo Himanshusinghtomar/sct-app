@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { mockData, category } from "@/_mock/mockData";
 import { carsData, brands } from "@/_mock/carsData";
 import { v4 as uuidv } from "uuid";
 import Card from "@/pages/vehicles/Card";
