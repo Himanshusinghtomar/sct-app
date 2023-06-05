@@ -25,7 +25,7 @@ export default function Home() {
           </AppLayout>
         </div>
         <AppLayout>
-          <Group />
+          
         </AppLayout>
         <div className="bg-black py-10">
           <AppLayout>
