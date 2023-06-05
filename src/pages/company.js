@@ -10,21 +10,19 @@ import React from 'react'
 export default function company() {
   return (
     <>
-      <div className='bg-[#FEEFE6]'>
+      <div className='bg-gradient-to-r from-[#171718]  to-[#76777a]'>
         <div className='max-w-[1600px] m-auto'>
-          <Header bgColor="#FEEFE6" />
+          <Header bgColor="" />
           <div className="px-5 text-center  py-20">
-              <p className=" font-semibold text-[#F9AF82] text-2xl">Our Mission & Succes Story</p>
-              <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">About Our Company</h1>
-              <p className="max-w-sm m-auto mt-7">we can help cut down costs and improve your customer support channels</p>
+              <p className=" font-semibold text-light-orange text-2xl">Our Mission & Succes Story</p>
+              <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold text-white">About Our Company</h1>
+              <p className="max-w-sm m-auto mt-7 text-light-orange/70">we can help cut down costs and improve your customer support channels</p>
           </div>
         </div>
       </div>
-      <AppLayout>
         <Frame/>
-        <AverageRevenue/>
+      <AppLayout>
         <Testimonial/>
-        <Outsourcing/>
       </AppLayout>
     </>
   )

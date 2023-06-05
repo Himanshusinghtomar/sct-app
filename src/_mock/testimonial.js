@@ -1,26 +1,26 @@
 export const testimonials = [
   {
     testimonial:
-      "Our operations have been significantly enhanced, and our productivity has grown, thanks to cutting-edge software from ANT Information Technologies. Their team of experts truly understands our needs and delivers tailored solutions that surpass our expectations.",
+      "I recently had the pleasure of purchasing a used car from Singh Car Trade, and I couldn't be happier with my experience. From start to finish, the team at Singh Car Trade went above and beyond to ensure that I found the perfect vehicle within my budget",
   },
   {
     testimonial:
-      "ANT Information Technologies was the best choice we have made for our lead generation efforts. Their cutting-edge tools and techniques have consistently delivered high-quality leads that convert into valuable customers.",
+      "First and foremost, I was impressed by the wide selection of high-quality used cars available at Singh Car Trade. They had a diverse range of makes, models, and years, allowing me to explore various options and find a car that suited my needs. ",
   },
   {
     testimonial:
-      "The knowledge and commitment of ANT Information Technologies have greatly increased our sales pipeline and contributed to our impressive revenue growth. We highly recommend ANT Information Technologies for their exceptional lead generation services.",
+      "The staff at Singh Car Trade were extremely knowledgeable and professional. They took the time to listen to my preferences and understand my specific requirements. They provided valuable insights and guidance, ",
   },
   {
     testimonial:
-      "ANT Information Technologies is a problem-solving firm, not merely a software company. They took the time to deeply understand our unique challenges and delivered a custom software solution that perfectly fit our needs.",
+      "Throughout the negotiation and purchasing process, Singh Car Trade proved themselves to be trustworthy and fair. They were upfront about the history and condition of the vehicle, providing me with detailed information and answering all of my questions honestly.",
   },
   {
     testimonial:
-      "The top-class knowledge and experience of the ANT Information Technologies team has helped me stay one step ahead of the competition and provide exceptional value to our clients.",
+      "What truly set Singh Car Trade apart was their exceptional customer service. Every member of their team was friendly, approachable, and dedicated to ensuring my satisfaction. They made me feel valued as a customer and went out of their way to accommodate my needs. ",
   },
   {
     testimonial:
-      "ANT Information Technologies sincerely values the importance of data privacy and security. With their compliance expertise, we confidently entrusted them with our customer data.",
+      "Overall, my experience with Singh Car Trade was outstanding. They provided a seamless and enjoyable car-buying experience, exceeding my expectations in every aspect.",
   },
 ];

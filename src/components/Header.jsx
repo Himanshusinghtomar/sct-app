@@ -12,13 +12,8 @@ const navigation = [
     current: false,
   },
   {
-    title: "Blogs",
-    path: "/blogs",
-    current: false,
-  },
-  {
-    title: "Career",
-    path: "/career",
+    title: "Vehicles",
+    path: "/vehicles",
     current: false,
   },
   {

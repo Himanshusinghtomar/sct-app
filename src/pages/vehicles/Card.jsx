@@ -46,11 +46,11 @@ console.log(imageUrls);
               </Link>
               </div>
               <div>
-                <p>Business &nbsp; | &nbsp;{product.model}</p>
+                <p>{product.brand} &nbsp; | &nbsp;{product.model}</p>
               </div>
               <Link href={`/blogs/${product.brand}`} passHref>
                 <span aria-hidden="true" className=" hover:text-light-orange" />
-                {product.title}
+                {product.brand}
               </Link>
               <div className="mt-5">
                 <div className="flex justify-start items-center gap-3 mt-5">

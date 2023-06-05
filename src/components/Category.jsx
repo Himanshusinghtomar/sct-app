@@ -1,9 +1,11 @@
+import AppLayout from "@/layout/AppLayout";
 import React from "react";
 import { v4 as uuidv } from "uuid";
 
 const Category = (props) => {
   return (
     <div>
+      <AppLayout>
       <div className=" flex flex-row gap-4 justify-end items-center px-5">
         {props.category?.map((item) => (
           <div key={uuidv()}>
@@ -13,6 +15,7 @@ const Category = (props) => {
           </div>
         ))}
       </div>
+      </AppLayout>
     </div>
   );
 };

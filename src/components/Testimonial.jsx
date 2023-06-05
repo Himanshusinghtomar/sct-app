@@ -57,7 +57,7 @@ const Testimonial = () => {
                   <div className="flex justify-start items-center gap-1">
                     <div>
                       <Image
-                        src={"/assets/womenceo.jpg"}
+                        src={"/assets/del04.jpeg"}
                         alt="img"
                         width={50}
                         height={50}
@@ -66,9 +66,9 @@ const Testimonial = () => {
                     </div>
                     <div>
                       <h2 className="text-gray-800 lg:text-3xl md font-semibold">
-                        Sophia Ava
+                        Puja Devi
                       </h2>
-                      <p>CEO</p>
+                      <p>Mahindra Buyer</p>
                     </div>
                   </div>
                   <p className="mt-2 text-gray-600 lg:py-5 md:py-4 sm:py-3  lg:text-base sm:text-base text-xs leading-[14px]">

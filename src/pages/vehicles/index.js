@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { mockData, category } from "@/_mock/mockData";
 import { carsData, brands } from "@/_mock/carsData";
 import { v4 as uuidv } from "uuid";
-import Card from "@/pages/blogs/Card";
+import Card from "@/pages/vehicles/Card";
 import Image from "next/image";
 import Header from "@/components/Header";
 import AppLayout from "@/layout/AppLayout";
@@ -23,11 +23,11 @@ const blog = () => {
   };
   return (
     <div>
-      <div className="bg-[#FEEFE6]">
+      <div className="bg-gradient-to-r from-[#171718]  to-[#76777a]">
         <div className="max-w-[1600px] m-auto">
-          <Header bgColor="#FEEFE6"/>
+          <Header bgColor=""/>
           <div className="px-5 text-center py-20 mb-12">
-            <p className=" font-semibold text-[#F9AF82] text-2xl">Blog</p>
+            <p className=" font-semibold text-[#F9AF82] text-2xl">vehicles</p>
             <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
               Latest Articles
             </h1>
@@ -54,12 +54,12 @@ const blog = () => {
 
         <Card products={filteredBlog} />
         
-        <div className="text-center">
+        <div className="text-center mb-10">
           <button className="inline-block rounded-full bg-neutral-800 mr-2 px-6 pb-2 pt-2.5 text-xs font-medium  leading-normal text-white transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200">
             Load More
           </button>
         </div>
-        <div className="px-5 text-center mt-10 mb-12">
+        {/* <div className="px-5 text-center mt-10 mb-12">
           <p className=" font-semibold text-[#F9AF82] text-2xl">Case Studies</p>
           <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
             Our Case Studies
@@ -252,7 +252,7 @@ const blog = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </AppLayout>
     </div>
   );
