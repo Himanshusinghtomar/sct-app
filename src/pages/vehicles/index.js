@@ -27,11 +27,11 @@ const blog = () => {
         <div className="max-w-[1600px] m-auto">
           <Header bgColor=""/>
           <div className="px-5 text-center py-20 mb-12">
-            <p className=" font-semibold text-[#F9AF82] text-2xl">vehicles</p>
-            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold">
+            <p className=" font-semibold text-light-orange text-2xl">vehicles</p>
+            <h1 className=" mt-5 lg:text-5xl md:text-3xl text-xl font-bold text-white">
               Latest Articles
             </h1>
-            <p className="lg:max-w-xl m-auto mt-3">
+            <p className="lg:max-w-xl m-auto mt-3 text-light-orange/70">
               We love to hear from you. Let us help you.
             </p>
           </div>
