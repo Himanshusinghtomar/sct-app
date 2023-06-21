@@ -5,17 +5,6 @@ import { v4 as uuidv } from "uuid";
 
 const Card = ({ products }) => {
 
-  const filteredImages = products.filter((images) =>(images.image.carImages.length > 1)).map(img => img.image.carImages);
-  const imageUrls = [];
-  filteredImages.forEach(images => {
-    images.forEach(image => {
-      if (image.url) {
-        imageUrls.push(image.url);
-      }
-    });
-  });
-
-console.log(imageUrls);
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3 px-7 m-10 ">
       {products?.map((product) => (
@@ -23,21 +12,10 @@ console.log(imageUrls);
           <div className="flex justify-evenly ">
             <div className="max-w-[300px] rounded-lg  shadow hover:shadow-lg hover:border-2 border-light-orange p-4 ">
               <div className="w-full h-[204px]   grid content-center	justify-center">
-              <Link href={`/blogs/${product.brand}`} passHref>
-              {/* {product.image.carImages.map((img) => (
-                          <div key={uuidv()}>
-                            <Image
-                            src={img.url}
-                            height={500}
-                            width={500}
-                            alt="img"
-                            />
-                            {}
-                          </div>
-                        ))} */}
+              <Link href={`/vehicles/${product.brand}`} passHref>
                 <Image
                 key={uuidv()}
-                  src={imageUrls[0]}
+                  src={product.coverImage}
                   alt={product.brand}
                   width={300}
                   height={300}
@@ -48,30 +26,12 @@ console.log(imageUrls);
               <div>
                 <p>{product.brand} &nbsp; | &nbsp;{product.model}</p>
               </div>
-              <Link href={`/blogs/${product.brand}`} passHref>
+              <Link href={`/vehicles/${product.brand}`} passHref>
                 <span aria-hidden="true" className=" hover:text-light-orange" />
                 {product.brand}
               </Link>
               <div className="mt-5">
-                <div className="flex justify-start items-center gap-3 mt-5">
-                  <div>
-                    <Image
-                      src={
-                        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=50&h=50&q=80"
-                      }
-                      alt="img"
-                      width={40}
-                      height={40}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div>
-                    <h2 className="text-gray-800 text-lg font-semibold">
-                      Adrian Nolan
-                    </h2>
-                    <p className="text-sm">Technology Assistant</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
