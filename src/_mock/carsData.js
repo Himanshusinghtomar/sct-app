@@ -114,7 +114,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 3,
+    id: 4,
     image: {
       carImages: [
         {
@@ -144,7 +144,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 4,
+    id: 5,
     image: {
       carImages: [
         {
@@ -174,7 +174,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 5,
+    id: 6,
     image: {
       carImages: [
         {
@@ -204,7 +204,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 6,
+    id: 7,
     image: {
       carImages: [
         {
@@ -234,7 +234,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 7,
+    id: 8,
     image: {
       carImages: [
         {
@@ -264,7 +264,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 8,
+    id: 9,
     image: {
       carImages: [
         {
@@ -294,7 +294,7 @@ export const carsData = [
     price: 35000,
   },
   {
-    id: 9,
+    id: 10,
     image: {
       carImages: [
         {
